@@ -365,7 +365,7 @@ app.delete(
         });
       }
 
-      res.status(200).json({
+      res.status(204).json({
         mensaje: "Producto eliminado correctamente"
       });
 
